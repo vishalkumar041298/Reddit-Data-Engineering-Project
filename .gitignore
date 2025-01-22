@@ -1,0 +1,7 @@
+*.conf
+/logs/dag_id=reddit_etl_dag/*
+/logs/dag_processor_manager/*
+/logs/scheduler/*
+/reddit/
+__pycache__/
+*.py[cod]
