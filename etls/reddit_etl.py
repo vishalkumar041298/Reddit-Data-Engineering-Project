@@ -47,7 +47,3 @@ def transform_data(df):
 
 def load_to_csv(df: pd.DataFrame, path):
     df.to_csv(path, index=False)
-# ins = connect_reddit('QXQO5i6s1ADOqe5sAm60mg', 'q0g4huR76MeIFvuZIPt1yEyPUJhoEQ', "script:my_reddit_bot:v1.0 (by u/Ill_Guarantee_5859)")
-# extract_posts(ins, 'dataengineering', 'day', 10)
-
-
